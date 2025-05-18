@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class LandingPageService {
-  private baseUrl = 'http://localhost:5900/landing'; // adapte selon ton backend
+  private baseUrl = 'https://backendintel.onrender.com/landing'; // adapte selon ton backend
 
   constructor(private http: HttpClient) {}
 
